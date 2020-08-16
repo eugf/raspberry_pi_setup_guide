@@ -23,3 +23,5 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
   - Under Package Files > MSI: 
       - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
 
+### Let's get started:
+
