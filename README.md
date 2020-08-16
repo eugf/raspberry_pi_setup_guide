@@ -9,7 +9,7 @@ What you'll need (physically):
 - computer with SD card reader
 
 What you'll need (digitally):
-- [Balena Etcher] (https://www.balena.io/etcher/)
+- [Balena Etcher](https://www.balena.io/etcher/)
 - Raspberry Pi OS (previously called Raspbian OS)
   - (ZIP) [https://downloads.raspberrypi.org/raspios_full_armhf_latest]
   - (TORRENT) [https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent] 
