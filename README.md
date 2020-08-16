@@ -28,6 +28,12 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 
 ##### 1. Flash the OS onto microSD card
 - Open up Balena Etcher
-- Select your 
+  - Flash from file
+    - Select your Raspbian OS ZIP file 
+  - Select target
+    - Check your microSD card
+      - Size should be between 4 - 64 GB, larger ones will need to be reformatted
+      - Location should NOT be the C:\ drive
+  - Flash!
 
 
