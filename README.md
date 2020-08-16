@@ -37,6 +37,15 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
       - Location should NOT be the C:\ drive
   - Flash!
     - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
+  - Eject
+    - Windows user: Right click the USB/attached drive icon in the bottom right of the task bar
+      - Select your microSD card
+        - It should then say "[microSD card] can be safely removed now"
+          - Press the card into the slot, it's spring-loaded so it should pop back out
+
+##### 2. Prepare the boot partition
+
+##### 3. SSH 
 
 
 
