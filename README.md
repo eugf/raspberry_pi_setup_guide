@@ -11,8 +11,8 @@ What you'll need (physically):
 What you'll need (digitally):
 - [Balena Etcher](https://www.balena.io/etcher/)
 - Raspberry Pi OS (previously called Raspbian OS)
-  - (ZIP) [https://downloads.raspberrypi.org/raspios_full_armhf_latest]
-  - (TORRENT) [https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent] 
+  - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
+  - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
   - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
 
 TODO: insert picture
