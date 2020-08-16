@@ -1,4 +1,5 @@
 # Raspberry Pi Setup Guide
+### Written for Genspace's Open Plant Community Project
 
 The goal of this guide is to create the minimal lowest cost setup for a Raspberry Pi (including associated peripherals) and fastest setup time, intended for new users to get up and running quickly.  
 
