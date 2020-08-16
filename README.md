@@ -3,14 +3,17 @@
 
 The goal of this guide is to create the minimal lowest cost setup for a Raspberry Pi (including associated peripherals) and fastest setup time, intended for new users to get up and running quickly.  
 
-What you'll need (physically):
+
+![Rpi0W hardware-labelled+cropped](https://user-images.githubusercontent.com/12764347/90338534-40102d80-dfb8-11ea-94ee-dae62fd3cc1c.jpg)
+
+### What you'll need (physically):
 - Raspberry Pi 0 W
 - microSD card (>= 4GB)
 - microSD card adapter
 - 5V (2.5A) power supply
 - computer with SD card reader
 
-What you'll need (digitally), please download:
+### What you'll need (digitally), please download:
 - Raspberry Pi OS (previously called Raspbian OS)
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
@@ -20,4 +23,3 @@ What you'll need (digitally), please download:
   - Under Package Files > MSI: 
       - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
 
-TODO: insert picture
