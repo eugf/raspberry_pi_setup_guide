@@ -14,6 +14,7 @@ What you'll need (digitally):
 - Raspberry Pi OS (previously called Raspbian OS)
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
-  - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
+    - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
+  - Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
 
 TODO: insert picture
