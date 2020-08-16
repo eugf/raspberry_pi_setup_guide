@@ -10,11 +10,11 @@ What you'll need (physically):
 - computer with SD card reader
 
 What you'll need (digitally), please download:
-- [Balena Etcher](https://www.balena.io/etcher/)
 - Raspberry Pi OS (previously called Raspbian OS)
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
     - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
+- [Balena Etcher](https://www.balena.io/etcher/)
 - Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
   - Under Package Files > MSI: 
       - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
