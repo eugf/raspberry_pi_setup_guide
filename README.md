@@ -27,16 +27,27 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 ##### 0. Download all the above (this could take awhile)
 
 ##### 1. Flash the OS onto microSD card
+
 - Open up Balena Etcher
+![Rpi0W-Etcher-flash1](https://user-images.githubusercontent.com/12764347/90342412-34cbfa80-dfd6-11ea-8290-05c918884d1b.png)
+![Rpi0W-Etcher-flash2](https://user-images.githubusercontent.com/12764347/90342491-b885e700-dfd6-11ea-8fb3-5b42c0e08f14.png)
   - Flash from file
     - Select your Raspbian OS ZIP file 
+
+![Rpi0W-Etcher-flash3](https://user-images.githubusercontent.com/12764347/90342502-ccc9e400-dfd6-11ea-93c4-7620bf797437.png)
+![Rpi0W-Etcher-flash4](https://user-images.githubusercontent.com/12764347/90342511-d6ebe280-dfd6-11ea-940b-17b5919b863f.png)
   - Select target
     - Check your microSD card
       - Size should be between 4 - 64 GB
         - Sizes >= 64 GB will need to be reformatted, see [here] (https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
       - Location should NOT be the C:\ drive
+
+![Rpi0W-Etcher-flash5](https://user-images.githubusercontent.com/12764347/90342522-ee2ad000-dfd6-11ea-876f-16ddd4eccb05.png)
+![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90342533-f6830b00-dfd6-11ea-9874-03ef868ae369.png)
   - Flash!
     - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
+
+![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
   - Eject
     - Windows user: Right click the USB/attached drive icon in the bottom right of the task bar
       - Select your microSD card
