@@ -20,7 +20,7 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 - [Balena Etcher](https://www.balena.io/etcher/)
 - Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
   - Under Package Files > MSI: 
-      - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
+      - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit
 
 ### Let's get started:
 
@@ -32,7 +32,8 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
     - Select your Raspbian OS ZIP file 
   - Select target
     - Check your microSD card
-      - Size should be between 4 - 64 GB, larger ones will need to be reformatted
+      - Size should be between 4 - 64 GB
+        - Sizes >= 64 GB will need to be reformatted, see [here] (https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
       - Location should NOT be the C:\ drive
   - Flash!
     - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
