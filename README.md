@@ -9,7 +9,7 @@ What you'll need (physically):
 - 5V (2.5A) power supply
 - computer with SD card reader
 
-What you'll need (digitally):
+What you'll need (digitally), please download these:
 - [Balena Etcher](https://www.balena.io/etcher/)
 - Raspberry Pi OS (previously called Raspbian OS)
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
