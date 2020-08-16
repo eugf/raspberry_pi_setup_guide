@@ -35,5 +35,7 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
       - Size should be between 4 - 64 GB, larger ones will need to be reformatted
       - Location should NOT be the C:\ drive
   - Flash!
+    - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
+
 
 
