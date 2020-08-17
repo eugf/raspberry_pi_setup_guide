@@ -87,7 +87,25 @@ If you're copy pasting on your own computer:
 For more info on the wpa_supplicant.conf file:
   If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up:
 
-##### 4. SSH 
+##### 4. Raspberry Pi
+
+You're finally ready to setup the Raspberry Pi!
+- Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
+- Connect the power plug to the slot that is labelled "PWR IN"
+- You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
+
+##### 5. SSH
+
+Windows users:
+- Go to the Start menu > type in "cmd" > run the Command Prompt program
+  - Type in:
+  ```
+  ping raspberrypi.local 
+  ```
+- Make note of the IP address, which is usually in the format 192
+
+
+
 
 
 
