@@ -12,7 +12,7 @@
 - 5V (2.5A) power supply
 - computer with SD card reader
 
-### What you'll need (digitally), please download:
+### What you'll need (digitally):
 - Raspberry Pi OS (previously called Raspbian OS), pick one:
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
