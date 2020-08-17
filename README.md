@@ -70,11 +70,19 @@ If you scroll to the top there is a boot_files folder. You can either download t
 This part is written from a Windows perspective, but the process should be fairly similarly on a Mac:
 If you're copy pasting onto your own computer:
 - Open up My Computer > select the microSD card (for me it's the F:\ drive) > right click somewhere away from the file names > New > Text document 
-  - Right click the file > Rename > Change the name and the extension to ssh with NO EXTENSION (be sure to delete the .txt at the end)
+  - Right click the file > Rename > Change the name and the extension to 
+    ```
+    ssh
+    ```
+  with NO EXTENSION (be sure to delete the .txt at the end)
 - Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text document
   - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
   - Save and close the file
-  - Right click the file > Rename > Change the name and extension to wpa_supplicant.conf (be sure to delete the .txt at the end)
+  - Right click the file > Rename > Change the name and extension to 
+    ```
+    wpa_supplicant.conf 
+    ```
+  with NO EXTENSION (be sure to delete the .txt at the end)
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
