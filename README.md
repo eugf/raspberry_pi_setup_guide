@@ -72,6 +72,9 @@
 
 ##### 3. Prepare the boot partition
 
+More info on the wpa_supplicant.conf file:
+  If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up:
+
 ##### 4. SSH 
 
 
