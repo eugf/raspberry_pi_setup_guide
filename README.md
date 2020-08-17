@@ -82,7 +82,7 @@ If you're copy pasting onto your own computer:
     ```
     wpa_supplicant.conf 
     ```
-  with NO EXTENSION (be sure to delete the .txt at the end)
+  (be sure to delete the .txt at the end)
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
