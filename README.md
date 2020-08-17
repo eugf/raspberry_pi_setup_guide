@@ -90,11 +90,14 @@ For more info on the wpa_supplicant.conf file:
 ##### 4. Raspberry Pi
 
 You're finally ready to setup the Raspberry Pi!
+*** If you have multiple Raspberry Pi's and have no idea about the IP addresses on your network, then hold off on Step 4 and read Step 5***
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
 - Connect the power plug to the slot that is labelled "PWR IN"
 - You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
 
 ##### 5. SSH
+
+If you only have one Raspberry Pi then start here, if you have multiple, scroll down
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
@@ -102,10 +105,15 @@ Windows users:
   ```
   ping raspberrypi.local 
   ```
-- Make note of the IP address, which is usually in the format 192
+  - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx. 
 
+Mac users:
 
-
-
+- Hopefully it's the only one that returns a response, unless you have other Raspberry Pi's connected. In which case a network-wide scan might be more appropriate. It would be more prudent to run this command BEFORE plugging in your Raspberry Pi and compare to the returned IP addresses AFTER. The new one is your new Raspberry Pi.
+  - Type in:
+  ```
+  arp -a
+  ```
+  
 
 
