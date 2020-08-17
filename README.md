@@ -90,14 +90,23 @@ For more info on the wpa_supplicant.conf file:
 ##### 4. Raspberry Pi
 
 You're finally ready to setup the Raspberry Pi!
-*** If you have multiple Raspberry Pi's and have no idea about the IP addresses on your network, then hold off on Step 4 and read Step 5***
+*** If you have multiple Raspberry Pi's and have no idea about the IP addresses on your network, then hold off on Step 4 and read Step 5's multiple Raspberry Pi section***
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
 - Connect the power plug to the slot that is labelled "PWR IN"
 - You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
 
 ##### 5. SSH
 
-If you only have one Raspberry Pi then start here, if you have multiple, scroll down
+Multiple Raspberry Pi's
+
+Windows users:
+- A network-wide scan might be more appropriate in this case. It would be more prudent to run this command BEFORE plugging in your Raspberry Pi and then again AFTER plugging it in. Compare the list of IP addresses and the new one is your new Raspberry Pi.
+  - Type in:
+  ```
+  arp -a
+  ```
+
+One Raspberry Pi
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
@@ -106,14 +115,28 @@ Windows users:
   ping raspberrypi.local 
   ```
   - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx. 
+- Open up the PuTTY program > type in the IP address > open
+  - It will give you a warning, select "Yes"
 
 Mac users:
+https://www.servermania.com/kb/articles/ssh-mac/
 
-- Hopefully it's the only one that returns a response, unless you have other Raspberry Pi's connected. In which case a network-wide scan might be more appropriate. It would be more prudent to run this command BEFORE plugging in your Raspberry Pi and compare to the returned IP addresses AFTER. The new one is your new Raspberry Pi.
-  - Type in:
+Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). It will ask for the default login credentials of the Raspberry Pi, which we are going to change immediately for security reasons
+- Login as > pi
+  - Password is > raspberry
+- Type in:
   ```
-  arp -a
+  passwd
   ```
+  - Enter the default password
+  ```
+  raspberry
+  ```
+  - Now enter your desired password twice
   
-
-
+Congrats! You are now ready to start using your Raspberry Pi! 
+***One more thing: always shut down properly by typing in***
+```
+sudo halt
+```
+***Unplugging it before a proper shutdown (either from command line or from the desktop interface's shutdown button) can result in memory corruption on the microSD card which can eventually destroy the card and whatever data you had on it***
