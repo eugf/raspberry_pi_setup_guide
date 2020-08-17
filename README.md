@@ -1,7 +1,7 @@
 # Raspberry Pi Setup Guide
 ### Written for Genspace's Open Plant Community Project
 
-The goal of this guide is to create the minimal lowest cost setup for a Raspberry Pi (including associated peripherals) and fastest setup time, intended for new users to get up and running quickly.  
+The goal of this guide is to create a minimal equipment, low-cost setup for a Raspberry Pi (including associated peripherals) in the shortest setup time, intended for new users to get up and running quickly.  
 
 ![Rpi0W hardware-labelled+cropped](https://user-images.githubusercontent.com/12764347/90338534-40102d80-dfb8-11ea-94ee-dae62fd3cc1c.jpg)
 
@@ -13,7 +13,7 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 - computer with SD card reader
 
 ### What you'll need (digitally), please download:
-- Raspberry Pi OS (previously called Raspbian OS)
+- Raspberry Pi OS (previously called Raspbian OS), pick one:
   - [ZIP](https://downloads.raspberrypi.org/raspios_full_armhf_latest)
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
     - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
@@ -24,9 +24,14 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 
 ### Let's get started:
 
-##### 0. Download all the above (this could take awhile)
+##### 1. Start downloading all the above links (this could take awhile) and assemble your physical pieces
 
-##### 1. Flash the OS onto microSD card
+- Slot your microSD card into the microSD card adapter
+  - This slots into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle, there may be a way to flash it on a phone that has a microSD card slot as well)
+
+![Rpi0W-setup](https://user-images.githubusercontent.com/12764347/90348240-247e4480-e003-11ea-87dd-33b412b37371.jpg)
+
+##### 2. Flash the OS onto microSD card
 
 - Open up Balena Etcher
 
@@ -65,9 +70,9 @@ The goal of this guide is to create the minimal lowest cost setup for a Raspberr
 ![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
 
 
-##### 2. Prepare the boot partition
+##### 3. Prepare the boot partition
 
-##### 3. SSH 
+##### 4. SSH 
 
 
 
