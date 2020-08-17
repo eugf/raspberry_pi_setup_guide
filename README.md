@@ -66,8 +66,6 @@
 
 If you scroll to the top there is a boot_files folder. Either download the 2 files inside or copy and paste the text from them into your owwn text files on your computer.
 
-![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
-
 If you're copy pasting on your own computer:
 - Open up My Computer > select the microSD card, for me it's the F:\ drive > right click somewhere away from the file names > New > Text document 
   - Right click the file > Rename > Change the name and the extension to ssh with NO EXTENSION (be sure to delete the .txt at the end)
@@ -75,15 +73,16 @@ If you're copy pasting on your own computer:
   - Change the network SSID (that's your wifi's name) and the network PSK (that's your wifi's password) to match your own home network
   - Save and close the file
   - Right click the file > Rename > Change the name and extension to wpa_supplicant.conf (be sure to delete the .txt at the end)
-
-
-![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
+  
+![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
 - Eject
   - Windows user: Right click the USB/attached drive icon in the bottom right of the task bar
     - Select your microSD card
       - It should then say "[microSD card] can be safely removed now"
       - Press the card into the slot, it's spring-loaded so it should pop back out
+
+![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
 
 For more info on the wpa_supplicant.conf file:
   If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up:
