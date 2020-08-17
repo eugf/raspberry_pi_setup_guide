@@ -50,9 +50,9 @@
 ![Rpi0W-Etcher-flash4](https://user-images.githubusercontent.com/12764347/90342511-d6ebe280-dfd6-11ea-940b-17b5919b863f.png)
 
     - Check your microSD card
-      - Size should be between 4 - 64 GB
+      - Size should be anywhere from 8 - 64 GB
         - Sizes >= 64 GB will need to be reformatted, see [here] (https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
-      - Location should NOT be the C:\ drive
+      - Location should NOT be the main C:\ drive (this is hidden so you don't wipe your entire computer)
 
 ![Rpi0W-Etcher-flash5](https://user-images.githubusercontent.com/12764347/90342522-ee2ad000-dfd6-11ea-876f-16ddd4eccb05.png)
 
