@@ -21,6 +21,7 @@
 - Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
   - Under Package Files > MSI: 
       - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit
+- Mac users: SSH is built into the command line already
 
 ### Let's get started:
 
@@ -64,23 +65,25 @@
 
 ##### 3. Prepare the boot partition
 
-If you scroll to the top there is a boot_files folder. Either download the 2 files inside or copy and paste the text from them into your own text files on your computer.
+If you scroll to the top there is a boot_files folder. You can either download this entire GitHub repository and extract those 2 files, or copy and paste the contents of the 2 files into your own text files on your computer.
 
-If you're copy pasting on your own computer:
-- Open up My Computer > select the microSD card, for me it's the F:\ drive > right click somewhere away from the file names > New > Text document 
+This part is written from a Windows perspective, but the process should be fairly similarly on a Mac:
+If you're copy pasting onto your own computer:
+- Open up My Computer > select the microSD card (for me it's the F:\ drive) > right click somewhere away from the file names > New > Text document 
   - Right click the file > Rename > Change the name and the extension to ssh with NO EXTENSION (be sure to delete the .txt at the end)
 - Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text document
-  - Change the network SSID (that's your wifi's name) and the network PSK (that's your wifi's password) to match your own home network
+  - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
   - Save and close the file
   - Right click the file > Rename > Change the name and extension to wpa_supplicant.conf (be sure to delete the .txt at the end)
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
 - Eject
-  - Windows user: Right click the USB/attached drive icon in the bottom right of the task bar
+  - Windows users: Right click the USB/attached drive icon in the bottom right of the task bar
     - Select your microSD card
       - It should then say "[microSD card] can be safely removed now"
       - Press the card into the slot, it's spring-loaded so it should pop back out
+  - Mac users: Drag the icon for the microSD card drive to the eject icon
 
 ![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
 
@@ -90,7 +93,6 @@ For more info on the wpa_supplicant.conf file:
 ##### 4. Raspberry Pi
 
 You're finally ready to setup the Raspberry Pi!
-*** If you have multiple Raspberry Pi's and have no idea about the IP addresses on your network, then hold off on Step 4 and read Step 5's multiple Raspberry Pi section***
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
 - Connect the power plug to the slot that is labelled "PWR IN"
 - You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
@@ -98,17 +100,6 @@ You're finally ready to setup the Raspberry Pi!
 ![Rpi0W-ON](https://user-images.githubusercontent.com/12764347/90437033-a6bc4680-e09f-11ea-8bf9-4b9a33be57e1.jpg)
 
 ##### 5. SSH
-
-Multiple Raspberry Pi's
-
-Windows users:
-- A network-wide scan might be more appropriate in this case. It would be more prudent to run this command BEFORE plugging in your Raspberry Pi and then again AFTER plugging it in. Compare the list of IP addresses and the new one is your new Raspberry Pi.
-  - Type in:
-  ```
-  arp -a
-  ```
-
-One Raspberry Pi
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
@@ -119,15 +110,20 @@ Windows users:
   - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx.
   
   ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
-  
- 
-- Open up the PuTTY program > type in the IP address > open
+
+- Open up the PuTTY program > type in the IP address (or try all of them if you have multiple) > open
   - It will give you a warning, select "Yes"
 
 ![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
 
 Mac users:
-https://www.servermania.com/kb/articles/ssh-mac/
+- Go to your apps and search for the Terminal > type in:
+```
+ssh pi@192.xxx.xx.xxx
+```
+  - Replace the digits at the end with your Raspberry Pi's IP address
+
+See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info
 
 Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). It will ask for the default login credentials of the Raspberry Pi, which we are going to change immediately for security reasons
 - Login as > pi
