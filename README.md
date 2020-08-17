@@ -7,7 +7,7 @@
 
 ### What you'll need (physically):
 - Raspberry Pi 0 W
-- microSD card (>= 4GB)
+- microSD card (>= 8GB)
 - microSD card adapter
 - 5V (2.5A) power supply
 - computer with SD card reader
