@@ -159,6 +159,7 @@ For a simple GUI based way to edit important system settings, such as:
 - SSH, VNC
 - overclocking
 - GPIO pins, SPI, EC2 connections
+
 You can use the command:
 ``` 
 sudo raspi-config 
