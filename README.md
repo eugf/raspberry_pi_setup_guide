@@ -95,6 +95,8 @@ You're finally ready to setup the Raspberry Pi!
 - Connect the power plug to the slot that is labelled "PWR IN"
 - You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
 
+![Rpi0W-ON](https://user-images.githubusercontent.com/12764347/90437033-a6bc4680-e09f-11ea-8bf9-4b9a33be57e1.jpg)
+
 ##### 5. SSH
 
 Multiple Raspberry Pi's
@@ -114,9 +116,15 @@ Windows users:
   ```
   ping raspberrypi.local 
   ```
-  - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx. 
+  - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx.
+  
+  ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
+  
+ 
 - Open up the PuTTY program > type in the IP address > open
   - It will give you a warning, select "Yes"
+
+![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
 
 Mac users:
 https://www.servermania.com/kb/articles/ssh-mac/
@@ -134,6 +142,8 @@ Once you've successfully connected over SSH, you are now operating over the comm
   ```
   - Now enter your desired password twice
   
+  ![Rpi0W-passwd](https://user-images.githubusercontent.com/12764347/90437186-edaa3c00-e09f-11ea-83a7-c396cde0ef93.png)
+  
 Congrats! You are now ready to start using your Raspberry Pi! 
 
 ##### 6. Handy extras
@@ -148,6 +158,9 @@ You can use the command:
 ``` 
 sudo raspi-config 
 ```
+
+![sudo raspi-config](https://user-images.githubusercontent.com/12764347/90437136-d9663f00-e09f-11ea-894a-294c3d5dc3e4.png)
+
 
 ***One more thing: always shut down properly by typing in***
 ```
