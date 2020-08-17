@@ -145,7 +145,9 @@ For a simple GUI based way to edit important system settings, such as:
 - overclocking
 - GPIO pins, SPI, EC2 connections
 You can use the command:
-``` sudo raspi-config ```
+``` 
+sudo raspi-config 
+```
 
 ***One more thing: always shut down properly by typing in***
 ```
