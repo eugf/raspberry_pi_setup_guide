@@ -88,6 +88,7 @@ If you're copy pasting onto your own computer:
 ![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
 
 For more info on the wpa_supplicant.conf file:
+
   If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
 
 ##### 4. Raspberry Pi
