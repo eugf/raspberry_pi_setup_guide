@@ -27,7 +27,7 @@ The goal of this guide is to create a minimal equipment, low-cost setup for a Ra
 ##### 1. Start downloading all the above links (this could take awhile) and assemble your physical pieces
 
 - Slot your microSD card into the microSD card adapter
-  - This slots into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle, there may be a way to flash it on a phone that has a microSD card slot as well)
+  - This goes into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle, there may be a way to flash it on a phone that has a microSD card slot as well)
 
 ![Rpi0W-setup](https://user-images.githubusercontent.com/12764347/90348240-247e4480-e003-11ea-87dd-33b412b37371.jpg)
 
