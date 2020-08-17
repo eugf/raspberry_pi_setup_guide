@@ -136,6 +136,17 @@ Once you've successfully connected over SSH, you are now operating over the comm
   
 Congrats! You are now ready to start using your Raspberry Pi! 
 
+##### 6. Handy extras
+
+For a simple GUI based way to edit important system settings, such as:
+- passwords
+- wifi networks
+- SSH, VNC
+- overclocking
+- GPIO pins, SPI, EC2 connections
+You can use the command:
+``` sudo raspi-config ```
+
 ***One more thing: always shut down properly by typing in***
 ```
 sudo halt
