@@ -39,7 +39,7 @@
 
   - Flash from file
     
-![Rpi0W-Etcher-flash2](https://user-images.githubusercontent.com/12764347/90342491-b885e700-dfd6-11ea-8fb3-5b42c0e08f14.png)
+![Rpi0W-Etcher-flash2](https://user-images.githubusercontent.com/12764347/90350323-c9505000-e00a-11ea-926f-03f6926c7f62.png)
 
     - Select your Raspbian OS ZIP file 
 
@@ -59,7 +59,7 @@
   - Flash!
     - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
  
-![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90342533-f6830b00-dfd6-11ea-9874-03ef868ae369.png)
+![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
 
   - Eject
     - Windows user: Right click the USB/attached drive icon in the bottom right of the task bar
