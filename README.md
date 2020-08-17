@@ -31,7 +31,7 @@
 
 ![Rpi0W-setup](https://user-images.githubusercontent.com/12764347/90348240-247e4480-e003-11ea-87dd-33b412b37371.jpg)
 
-##### 2. Flash the OS onto microSD card
+##### 2. Flash the OS onto the microSD card
 
 - Open up Balena Etcher
 
