@@ -135,6 +135,7 @@ Once you've successfully connected over SSH, you are now operating over the comm
   - Now enter your desired password twice
   
 Congrats! You are now ready to start using your Raspberry Pi! 
+
 ***One more thing: always shut down properly by typing in***
 ```
 sudo halt
