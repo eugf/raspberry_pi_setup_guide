@@ -64,7 +64,7 @@
 
 ##### 3. Prepare the boot partition
 
-If you scroll to the top there is a boot_files folder. Either download the 2 files inside or copy and paste the text from them into your owwn text files on your computer.
+If you scroll to the top there is a boot_files folder. Either download the 2 files inside or copy and paste the text from them into your own text files on your computer.
 
 If you're copy pasting on your own computer:
 - Open up My Computer > select the microSD card, for me it's the F:\ drive > right click somewhere away from the file names > New > Text document 
