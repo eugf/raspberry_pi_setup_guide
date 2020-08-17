@@ -81,18 +81,18 @@ If you're copy pasting onto your own computer:
 - Eject
   - Windows users: Right click the USB/attached drive icon in the bottom right of the task bar
     - Select your microSD card
-      - It should then say "[microSD card] can be safely removed now"
+      - It should then say "[microSD card drive] can be safely removed now"
       - Press the card into the slot, it's spring-loaded so it should pop back out
   - Mac users: Drag the icon for the microSD card drive to the eject icon
 
 ![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
 
 For more info on the wpa_supplicant.conf file:
-  If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up:
+  If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
 
 ##### 4. Raspberry Pi
 
-You're finally ready to setup the Raspberry Pi!
+You're finally ready to setup the physical Raspberry Pi!
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
 - Connect the power plug to the slot that is labelled "PWR IN"
 - You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
