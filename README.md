@@ -1,9 +1,11 @@
 # Raspberry Pi Setup Guide
 ### Written for Genspace's Open Plant Community Project
 
-  The goal of this guide is to create a minimal equipment, lowest-cost setup possible for a Raspberry Pi (including associated peripherals) in the shortest setup time, intended for new users to get up and running quickly. This is going to be a "headless setup" meaning no peripherals, such as, screen, keyboard, or mice are going to be used directly on the Raspberry Pi 0 W. The Raspberry Pi 0 line needs adapters to fit their micro sized ports, which can be a limiting factor for a quick setup. So instead we'll be controlling everything wirelessly from another computer. Additionally, I've elected to use the full-fledged Raspberry Pi OS instead of the minimal one mainly because it includes Python 3, but also because the desktop interface may be easier for beginners should they choose to use that in the future.
+  The goal of this guide is to create a minimal equipment, lowest-cost setup possible for a Raspberry Pi (including associated peripherals) in the shortest setup time, intended for new users to get up and running quickly. This is going to be a "headless setup" meaning no peripherals, such as, a screen, keyboard, or mouse are going to be used directly on the Raspberry Pi 0 W. The Raspberry Pi 0 line needs adapters to fit their micro sized ports, which can be a limiting factor for a quick setup. Instead, we'll be controlling everything wirelessly from another computer. Additionally, I've elected to use the full-fledged Raspberry Pi OS instead of the minimal one mainly because it includes Python 3, but also because the desktop interface may be easier for beginners should they choose to use that in the future.
 
 ![Rpi0W hardware-labelled+cropped](https://user-images.githubusercontent.com/12764347/90338534-40102d80-dfb8-11ea-94ee-dae62fd3cc1c.jpg)
+
+### PREREQUISITES
 
 ### What you'll need (physically):
 - Raspberry Pi 0 W
@@ -21,18 +23,18 @@
 - Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
   - Under Package Files > MSI: 
       - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit
-- Mac users: SSH is built into the command line already
+- Mac users: SSH is built into the command line already 
 
 ### Let's get started:
 
-##### 1. Start downloading all the above links (this could take awhile) and assemble your physical pieces
+##### STEP 1 - Start by downloading all the above links (this could take awhile) and assemble your physical pieces
 
 - Slot your microSD card into the microSD card adapter
-  - This goes into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle, there may be a way to flash it on a phone that has a microSD card slot as well)
+  - This goes into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle)
 
 ![Rpi0W-setup](https://user-images.githubusercontent.com/12764347/90348240-247e4480-e003-11ea-87dd-33b412b37371.jpg)
 
-##### 2. Flash the OS onto the microSD card
+##### STEP 2 - Flash the OS onto the microSD card
 
 - Open up Balena Etcher
 
@@ -63,7 +65,7 @@
 ![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
 
 
-##### 3. Prepare the boot partition
+##### STEP 3 - Prepare the boot partition
 
 If you scroll to the top there is a boot_files folder. You can either download this entire GitHub repository and extract those 2 files, or copy and paste the contents of the 2 files into your own text files on your computer.
 
@@ -99,7 +101,7 @@ For more info on the wpa_supplicant.conf file:
 
   If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
 
-##### 4. Raspberry Pi
+##### STEP 4 - Raspberry Pi
 
 You're finally ready to setup the physical Raspberry Pi!
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
@@ -108,7 +110,7 @@ You're finally ready to setup the physical Raspberry Pi!
 
 ![Rpi0W-ON](https://user-images.githubusercontent.com/12764347/90437033-a6bc4680-e09f-11ea-8bf9-4b9a33be57e1.jpg)
 
-##### 5. SSH
+##### STEP 5 - SSH
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
@@ -151,7 +153,7 @@ Once you've successfully connected over SSH, you are now operating over the comm
   
 Congrats! You are now ready to start using your Raspberry Pi! 
 
-##### 6. Handy extras
+##### STEP 6 - Handy extras
 
 For a simple GUI based way to edit important system settings, such as:
 - passwords
