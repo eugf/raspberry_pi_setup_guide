@@ -141,10 +141,10 @@ Mac users:
   ```
   pi
   ```
-  - Password is 
-    ```
-    raspberry
-    ```
+- Password is 
+  ```
+  raspberry
+  ```
 
 This is the command for changing the password 
 
@@ -152,12 +152,12 @@ This is the command for changing the password
   ```
   passwd
   ```
-  - Enter the default password
-    ```
-    raspberry
-    ```
-  - Now enter your desired password twice
-  
+- Enter the default password
+  ```
+  raspberry
+  ```
+- Now enter your desired password twice
+
   ![Rpi0W-passwd](https://user-images.githubusercontent.com/12764347/90437186-edaa3c00-e09f-11ea-83a7-c396cde0ef93.png)
   
 Congrats! You are now ready to start using your Raspberry Pi! 
