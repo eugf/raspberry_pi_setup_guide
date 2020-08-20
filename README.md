@@ -183,4 +183,4 @@ sudo raspi-config
 ```
 sudo halt
 ```
-***The green light in the corner will blink a few times before turning off. Now you can unplug the power. Unplugging it before a proper shutdown (either from command line or from the desktop interface's shutdown button) can result in memory corruption on the microSD card which can eventually destroy the card and whatever data you had on it***
+***The green light in the corner will blink a few times before turning off. Now you can unplug the power. Unplugging it before a proper shutdown (either from command line or from the desktop interface's shutdown button) can result in [data corruption on the microSD card](https://www.raspberrypi.org/forums/viewtopic.php?t=36533#:~:text=If%20you%20loose%20power%20when,when%20the%20Pi%20is%20running.) which can eventually destroy the micro SD card and whatever data you had on it***
