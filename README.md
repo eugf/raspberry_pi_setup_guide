@@ -38,31 +38,31 @@
 
 - Open up Balena Etcher
 
-![Rpi0W-Etcher-flash1](https://user-images.githubusercontent.com/12764347/90342412-34cbfa80-dfd6-11ea-8290-05c918884d1b.png)
+  ![Rpi0W-Etcher-flash1](https://user-images.githubusercontent.com/12764347/90342412-34cbfa80-dfd6-11ea-8290-05c918884d1b.png)
 
   - Flash from file
     
-![Rpi0W-Etcher-flash2](https://user-images.githubusercontent.com/12764347/90350323-c9505000-e00a-11ea-926f-03f6926c7f62.png)
+  ![Rpi0W-Etcher-flash2](https://user-images.githubusercontent.com/12764347/90350323-c9505000-e00a-11ea-926f-03f6926c7f62.png)
 
-    - Select your Raspbian OS ZIP file 
+  - Select your Raspbian OS ZIP file 
 
-![Rpi0W-Etcher-flash3](https://user-images.githubusercontent.com/12764347/90342502-ccc9e400-dfd6-11ea-93c4-7620bf797437.png)
+  ![Rpi0W-Etcher-flash3](https://user-images.githubusercontent.com/12764347/90342502-ccc9e400-dfd6-11ea-93c4-7620bf797437.png)
 
   - Select target
 
-![Rpi0W-Etcher-flash4](https://user-images.githubusercontent.com/12764347/90342511-d6ebe280-dfd6-11ea-940b-17b5919b863f.png)
+  ![Rpi0W-Etcher-flash4](https://user-images.githubusercontent.com/12764347/90342511-d6ebe280-dfd6-11ea-940b-17b5919b863f.png)
 
-    - Check your microSD card
-      - Size should be anywhere from 8 - 64 GB
-        - Sizes >= 64 GB will need to be reformatted, see [here](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
-      - Location should NOT be the main C:\ drive (this is hidden so you don't wipe your entire computer)
+  - Check your microSD card
+    - Size should be anywhere from 8 - 64 GB
+      - Sizes >= 64 GB will need to be reformatted, see [here](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
+    - Location should NOT be the main C:\ drive (this is hidden so you don't wipe your entire computer)
 
-![Rpi0W-Etcher-flash5](https://user-images.githubusercontent.com/12764347/90342522-ee2ad000-dfd6-11ea-876f-16ddd4eccb05.png)
+  ![Rpi0W-Etcher-flash5](https://user-images.githubusercontent.com/12764347/90342522-ee2ad000-dfd6-11ea-876f-16ddd4eccb05.png)
 
   - Flash!
     - Windows users: you may need to grant permission to the command line to start the flashing process by selecting "Yes"
  
-![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
+  ![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
 
 
 ##### <ins>STEP 3 - Prepare the boot partition</ins>
