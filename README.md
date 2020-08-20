@@ -76,7 +76,7 @@ If you're copy pasting onto your own computer:
     ```
     ssh
     ```
-   with NO EXTENSION (be sure to delete the .txt at the end)
+    with NO EXTENSION (be sure to delete the .txt at the end)
 - Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text document
   - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
   - Save and close the file
