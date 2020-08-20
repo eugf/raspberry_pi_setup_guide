@@ -67,9 +67,9 @@
 
 ##### <ins>STEP 3 - Prepare the boot partition</ins>
 
-If you scroll to the top or you can click this for the [boot_files](https://github.com/eugf/raspberry_pi_setup_guide) folder. You can either download this entire GitHub repository and extract those 2 files, or copy and paste the contents of the 2 boot files into your own text files on your computer.
+If you scroll to the top of this page, you will see the [boot_files](https://github.com/eugf/raspberry_pi_setup_guide/tree/master/boot_files) folder. You can either download this entire GitHub repository and extract those two boot files, or copy and paste the contents into your own text files on your computer.
+(NOTE: This part is written for a Windows computer, but the process should be fairly similarly on a Mac)
 
-This part is written from a Windows perspective, but the process should be fairly similarly on a Mac:
 If you're copy pasting onto your own computer:
 - Open up My Computer > select the microSD card (for me it's the F:\ drive) > right click somewhere away from the file names > New > Text document 
   - Right click the file > Rename > Change the name and the extension to 
