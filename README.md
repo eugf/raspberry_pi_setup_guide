@@ -1,5 +1,5 @@
 # <ins>Raspberry Pi Setup Guide</ins>
-### Written for Genspace's Open Plant Community Project
+### Written for [Genspace's Open Plant Community Project](https://www.genspace.org/community-projects)
 
   The goal of this guide is to create a minimal equipment, lowest-cost setup possible for a Raspberry Pi (including associated peripherals) in the shortest setup time, intended for new users to get up and running quickly. This is going to be a "headless setup" meaning no peripherals, such as, a screen, keyboard, or mouse are going to be used directly on the Raspberry Pi 0 W. The Raspberry Pi 0 line needs adapters to fit their micro sized ports, which can be a limiting factor for a quick setup. Instead, we'll be controlling everything wirelessly from another computer. Additionally, I've elected to use the full-fledged Raspberry Pi OS instead of the minimal one mainly because it includes Python 3, but also because the desktop interface may be easier for beginners should they choose to use that in the future.
 
