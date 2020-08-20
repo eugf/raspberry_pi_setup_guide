@@ -5,7 +5,7 @@
 
 ![Rpi0W hardware-labelled+cropped](https://user-images.githubusercontent.com/12764347/90338534-40102d80-dfb8-11ea-94ee-dae62fd3cc1c.jpg)
 
-### PREREQUISITES
+### <ins>PREREQUISITES</ins>
 
 ### What you'll need (physically):
 - Raspberry Pi 0 W
