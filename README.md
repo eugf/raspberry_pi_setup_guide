@@ -104,7 +104,7 @@ If you're using a hidden network, an unsecured network, an extremely long  passw
 You're finally ready to setup the physical Raspberry Pi!
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
 - Connect the power plug to the slot that is labelled "PWR IN"
-- You should see a green light in the bottom right corner (close to the "PWR IN" plug) if power is on and the OS boots correctly
+- You should see a green light in the corner (close to the "PWR IN" plug) if the power is on and the OS boots correctly
 
 ![Rpi0W-ON](https://user-images.githubusercontent.com/12764347/90437033-a6bc4680-e09f-11ea-8bf9-4b9a33be57e1.jpg)
 
