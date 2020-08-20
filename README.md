@@ -67,7 +67,7 @@
 
 ##### <ins>STEP 3 - Prepare the boot partition</ins>
 
-If you scroll to the top of this page, you will see the [boot_files](https://github.com/eugf/raspberry_pi_setup_guide/tree/master/boot_files) folder. You can either download this entire GitHub repository and extract those two boot files, or copy and paste the contents into your own text files on your computer.
+  If you scroll to the top of this page, you will see the [boot_files](https://github.com/eugf/raspberry_pi_setup_guide/tree/master/boot_files) folder. You can either download this entire GitHub repository and extract those two boot files, or copy and paste the contents into your own text files on your computer.
 (NOTE: This part is written for a Windows computer, but the process should be fairly similarly on a Mac)
 
 If you're copy pasting onto your own computer:
@@ -116,7 +116,7 @@ Windows users:
   ```
   ping raspberrypi.local 
   ```
-- Make note of the IP address this returns, which in my case starts with 192.xxx.xx.xxx
+- Make note of the IP address this returns, which in my case starts with "192.xxx.xx.xxx", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
   
 ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
 
@@ -131,22 +131,31 @@ Mac users:
   ssh pi@192.xxx.xx.xxx
   ```
   - Replace the digits after the @ symbol with your Raspberry Pi's IP address
-
-See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info
+  - See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info for Mac users
 
 ##### <ins>STEP 6 - Logging into the Pi</ins>
-Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). At this point, your computer is remotely accessing your Raspberry Pi and can run any programs from here (provided you know what to type in). But first, it will ask for the default login credentials of the Raspberry Pi, which we are going to change IMMEDIATELY for security reasons.
 
-- Login as > pi
-  - Password is > raspberry
+  Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). At this point, your computer is remotely accessing your Raspberry Pi and can run any programs on it (provided you know what to type in). But first, it will ask for the default login credentials of the Raspberry Pi, which we are going to change IMMEDIATELY for security reasons.
+
+- Login as
+  ```
+  pi
+  ```
+  - Password is 
+    ```
+    raspberry
+    ```
+
+This is the command for changing the password 
+
 - Type in:
   ```
   passwd
   ```
   - Enter the default password
-  ```
-  raspberry
-  ```
+    ```
+    raspberry
+    ```
   - Now enter your desired password twice
   
   ![Rpi0W-passwd](https://user-images.githubusercontent.com/12764347/90437186-edaa3c00-e09f-11ea-83a7-c396cde0ef93.png)
