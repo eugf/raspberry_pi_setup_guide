@@ -27,14 +27,14 @@
 
 ### Let's get started:
 
-##### STEP 1 - Start by downloading all the above links (this could take awhile) and assemble your physical pieces
+##### <ins>STEP 1 - Start by downloading all the above links (this could take awhile) and assemble your physical pieces</ins>
 
 - Slot your microSD card into the microSD card adapter
   - This goes into the the SD card slot on your computer (if you don't have one you'll need to get an adapter or dongle)
 
 ![Rpi0W-setup](https://user-images.githubusercontent.com/12764347/90348240-247e4480-e003-11ea-87dd-33b412b37371.jpg)
 
-##### STEP 2 - Flash the OS onto the microSD card
+##### <ins>STEP 2 - Flash the OS onto the microSD card</ins>
 
 - Open up Balena Etcher
 
@@ -65,7 +65,7 @@
 ![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
 
 
-##### STEP 3 - Prepare the boot partition
+##### <ins>STEP 3 - Prepare the boot partition</ins>
 
 If you scroll to the top there is a boot_files folder. You can either download this entire GitHub repository and extract those 2 files, or copy and paste the contents of the 2 files into your own text files on your computer.
 
@@ -101,7 +101,7 @@ For more info on the wpa_supplicant.conf file:
 
   If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
 
-##### STEP 4 - Raspberry Pi
+##### <ins>STEP 4 - Raspberry Pi</ins>
 
 You're finally ready to setup the physical Raspberry Pi!
 - Take the microSD card out of the microSD card adapter, and slot it into the Raspberry Pi
@@ -110,17 +110,17 @@ You're finally ready to setup the physical Raspberry Pi!
 
 ![Rpi0W-ON](https://user-images.githubusercontent.com/12764347/90437033-a6bc4680-e09f-11ea-8bf9-4b9a33be57e1.jpg)
 
-##### STEP 5 - SSH
+##### </ins>STEP 5 - SSH</ins>
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
-  - Type in:
-  ```
-  ping raspberrypi.local 
-  ```
-  - Make note of the IP address that is returned, which in my case starts with 192.xxx.xx.xxx.
+- Type in:
+```
+ping raspberrypi.local 
+```
+- Make note of the IP address this returns, which in my case starts with 192.xxx.xx.xxx
   
-  ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
+![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
 
 - Open up the PuTTY program > type in the IP address (or try all of them if you have multiple) > open
   - It will give you a warning, select "Yes"
@@ -128,15 +128,17 @@ Windows users:
 ![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
 
 Mac users:
-- Go to your apps and search for the Terminal > type in:
+- Go to your applications and open up a Terminal > type in:
 ```
 ssh pi@192.xxx.xx.xxx
 ```
-  - Replace the digits at the end with your Raspberry Pi's IP address
+  - Replace the digits after the @ symbol with your Raspberry Pi's IP address
 
 See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info
 
-Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). It will ask for the default login credentials of the Raspberry Pi, which we are going to change immediately for security reasons
+##### <ins>STEP 6 - Logging into the Pi</ins>
+Once you've successfully connected over SSH, you are now operating over the command line in the Raspberry Pi, also called "command line interface" (CLI). At this point, your computer is remotely accessing your Raspberry Pi and can run any programs from here (provided you know what to type in). But first, it will ask for the default login credentials of the Raspberry Pi, which we are going to change IMMEDIATELY for security reasons.
+
 - Login as > pi
   - Password is > raspberry
 - Type in:
@@ -153,7 +155,7 @@ Once you've successfully connected over SSH, you are now operating over the comm
   
 Congrats! You are now ready to start using your Raspberry Pi! 
 
-##### STEP 6 - Handy extras
+##### <ins>STEP 7 - Handy extras</ins>
 
 For a simple GUI based way to edit important system settings, such as:
 - passwords
