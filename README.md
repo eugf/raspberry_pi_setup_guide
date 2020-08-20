@@ -10,7 +10,7 @@
 - microSD card (>= 8GB)
 - microSD card adapter
 - 5V (2.5A) power supply
-- computer with SD card reader (Windows/Mac)
+- Windows/Mac computer with SD card reader
 
 ### What you'll need (digitally):
 - Raspberry Pi OS (previously called Raspbian OS), pick one:
