@@ -113,9 +113,9 @@ You're finally ready to setup the physical Raspberry Pi!
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
 - Type in:
-```
-ping raspberrypi.local 
-```
+  ```
+  ping raspberrypi.local 
+  ```
 - Make note of the IP address this returns, which in my case starts with 192.xxx.xx.xxx
   
 ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
@@ -127,9 +127,9 @@ ping raspberrypi.local
 
 Mac users:
 - Go to your applications and open up a Terminal > type in:
-```
-ssh pi@192.xxx.xx.xxx
-```
+  ```
+  ssh pi@192.xxx.xx.xxx
+  ```
   - Replace the digits after the @ symbol with your Raspberry Pi's IP address
 
 See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info
