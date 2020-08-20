@@ -88,18 +88,16 @@ If you're copy pasting onto your own computer:
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
+If you're using a hidden network, an unsecured network, an extremely long  password or want some special configurations, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
+
 - Eject
   - Windows users: Right click the USB/attached drive icon in the bottom right of the task bar
     - Select your microSD card
-      - It should then say "[your microSD card drive letter] can be safely removed now"
-      - Press the card into the slot, it's spring-loaded so it should pop back out
+      - It should say "[your microSD card drive letter] can be safely removed now"
   - Mac users: Drag the icon for the microSD card drive to the eject icon
+  - If it's a spring-loaded type, you can press the card deeper into the slot and it should pop back out. If you have the kind where the SD card sticks out then it won't have a spring and can be easily removed with your fingers
 
 ![Rpi0W-Etcher-flash7](https://user-images.githubusercontent.com/12764347/90342538-026ecd00-dfd7-11ea-909c-33b757df5854.png)
-
-For more info on the wpa_supplicant.conf file:
-
-  If you're using a hidden network, an unsecured network, an extremely long  password or some other extreme configuration, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
 
 ##### <ins>STEP 4 - Raspberry Pi</ins>
 
