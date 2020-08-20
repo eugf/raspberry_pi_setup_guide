@@ -169,7 +169,7 @@ For a simple GUI based way to edit important system settings, such as:
 - wifi networks
 - SSH, VNC
 - overclocking
-- GPIO pins, SPI, EC2 connections
+- Remote GPIO, SPI, I2C, serial, camera connections
 
 You can use the command:
 ``` 
