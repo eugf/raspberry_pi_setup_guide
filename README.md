@@ -76,7 +76,7 @@ If you're copy pasting onto your own computer:
     ```
     ssh
     ```
-  with NO EXTENSION (be sure to delete the .txt at the end)
+   with NO EXTENSION (be sure to delete the .txt at the end)
 - Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text document
   - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
   - Save and close the file
@@ -84,14 +84,14 @@ If you're copy pasting onto your own computer:
     ```
     wpa_supplicant.conf 
     ```
-  (be sure to delete the .txt at the end)
+    (be sure to delete the .txt at the end)
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
 - Eject
   - Windows users: Right click the USB/attached drive icon in the bottom right of the task bar
     - Select your microSD card
-      - It should then say "[microSD card drive] can be safely removed now"
+      - It should then say "[your microSD card drive letter] can be safely removed now"
       - Press the card into the slot, it's spring-loaded so it should pop back out
   - Mac users: Drag the icon for the microSD card drive to the eject icon
 
