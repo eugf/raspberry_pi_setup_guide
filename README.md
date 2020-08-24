@@ -126,7 +126,13 @@ Windows users:
 ![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
 
 Mac users:
-- Go to your applications and open up a Terminal > type in:
+- Go to your applications and open up a Terminal program
+- Type in:
+  ```
+  ping raspberrypi.local 
+  ```
+- Make note of the IP address this returns, which in my case starts with "192.xxx.xx.xxx", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
+- From the Terminal > type in:
   ```
   ssh pi@192.xxx.xx.xxx
   ```
