@@ -68,16 +68,17 @@
 ##### <ins>STEP 3 - Prepare the boot partition</ins>
 
   If you scroll to the top of this page, you will see the [boot_files](https://github.com/eugf/raspberry_pi_setup_guide/tree/master/boot_files) folder. You can either download this entire GitHub repository and extract those two boot files, or copy and paste the contents into your own text files on your computer.
-(NOTE: This part is written for a Windows computer, but the process should be fairly similarly on a Mac)
 
 If you're copy pasting onto your own computer:
+
+Windows users:
 - Open up My Computer > select the microSD card (for me it's the F:\ drive) > right click somewhere away from the file names > New > Text document 
   - Right click the file > Rename > Change the name and the extension to 
     ```
     ssh
     ```
     with NO EXTENSION (be sure to delete the .txt at the end)
-- Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text document
+- Repeat these steps to make a second file, but this time copy and paste the text inside the wpa_supplicant.conf file into your blank text file
   - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
   - Save and close the file
   - Right click the file > Rename > Change the name and extension to 
@@ -88,7 +89,33 @@ If you're copy pasting onto your own computer:
   
 ![Rpi0W-boot](https://user-images.githubusercontent.com/12764347/90416406-68fbf580-e080-11ea-82bf-b96cfc22b95f.png)
 
+Mac users:
+- Open up TextEdit > Go to the Format option > change it to "Plain Text" 
+  - Save the file
+    - Select Unicode-8
+    - Uncheck the .txt option
+  - Make sure the full name is  
+    ```
+    ssh
+    ```
+    without any other extension (you might need to right click and view info or detailed properties and uncheck "hide extension" to see this)
+    
+- Open up TextEdit > Go to the Format option > change it to "Plain Text" > copy and paste the text inside the wpa_supplicant.conf file into your blank text file
+  - Change the network SSID (your wifi name) and the network PSK (your wifi password) to match your own home network
+  - Save the file
+    - Select Unicode-8
+    - Uncheck the .txt option
+  - Make sure the full name is  
+    ```
+    wpa_supplicant.conf 
+    ```
+    without any other extension (you might need to right click and view info or detailed properties and uncheck "hide extension" to see this)
+
 If you're using a hidden network, an unsecured network, an extremely long  password or want some special configurations, see [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for more details on how to set that up
+
+Once you have your 2 files (ssh and wpa_supplicant.conf) move them into your microSD card
+  - These files will disappear once you boot up the Raspberry Pi
+  - If you need to edit them again, you'll need to reverse the procedure and add the ".txt" extension at the end of the file name to view and edit them in a regular text editor
 
 - Eject
   - Windows users: Right click the USB/attached drive icon in the bottom right of the task bar
