@@ -168,6 +168,7 @@ Mac users:
 ### Now we can actually try to SSH
 
 Easy way:
+
 Use this if you've only got one Raspberry Pi on the whole network
 - From the Terminal > type in:
   ```
@@ -175,6 +176,7 @@ Use this if you've only got one Raspberry Pi on the whole network
   ```
 
 More tech savvy way:
+
 Use this if you're managing multiple Raspberry Pi's on the same network, you'll need this to specify which one. Or if you're changing OS's often or connecting to many Pi's
 - From the Terminal > type in:
   ```
