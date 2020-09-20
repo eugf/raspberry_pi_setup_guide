@@ -155,6 +155,9 @@ From here both users can do a quick test to see if their Raspberry Pi is properl
   ```
   ping raspberrypi.local 
   ```
+
+![Rpi0W-ping-B W](https://user-images.githubusercontent.com/12764347/93723536-3ce6ff00-fb6d-11ea-8857-0140177264ef.png)
+
 - Make note of the IP address this returns, which in my case starts with "192.###.##.###", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
 - Alternatively, if your IP address returns letters and numbers such as "2001:#xx#:##x#:####:####:#x#x:####:####" with eight sections with four characters in each, separated by periods between the sections, you have an IPv6 address. This is expected to become more commonplace and will work fine.
 - If you have no response and it's been at least several minutes since the Raspberry Pi was booted up, try moving it closer to the router and try to ping again
