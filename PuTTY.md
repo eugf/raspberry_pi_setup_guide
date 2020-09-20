@@ -1,5 +1,6 @@
 ### Who is this for?
 If you start to manage many Raspberry Pi's it might be work getting an SSH client, such as PuTTY
+
 Running the ssh pi@raspberrypi.local command to connect to multiple Raspberry Pi's can cause errors if you:
 - have multiple Raspberry Pi's
 - change OS's frequently (by flashing the card and connecting again)
