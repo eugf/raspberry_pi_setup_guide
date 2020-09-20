@@ -19,9 +19,9 @@ Saving your IP address for future use:
 1. You need to be in the "Session" category (default) on the left
 2. Enter the IP address of your Raspberry Pi here
 3. Name your session
-  - I would suggest something descriptive such as "Rpi0W-OpenPlant-192.xxx.xx.xxx", this way you know what project it is and what IP address it was in case you need to check against a list of multiple IP addresses if you have many Raspberry Pi's
-  - In any case this makes future access as simple as opening PuTTY and double clicking the "name" you've given it, so make sure you can recognize it
+     - I would suggest something descriptive such as "Rpi0W-OpenPlant-192.xxx.xx.xxx", this way you know what project it is and what IP address it was in case you need to check against a list of multiple IP addresses if you have many Raspberry Pi's
+      - In any case this makes future access as simple as opening PuTTY and double clicking the "name" you've given it, so make sure you can recognize it
 4. Click Save
-  - It will now populate the empty white box left of the save button with your named session
-  - From now on you can just double click that name to reconnect 
+      - It will now populate the empty white box left of the save button with your named session
+     - From now on you can just double click that name to reconnect 
   
