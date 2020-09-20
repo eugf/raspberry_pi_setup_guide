@@ -7,6 +7,9 @@ Running the ssh pi@raspberrypi.local command to connect to multiple Raspberry Pi
 - change the Wifi network
 - OR, are under an active network intrusion (please be sure to change your password IMMEDIATELY upon setting up your Raspberry Pi the first time, this the minimum you can do to protect yourself)
 
+Example
+![Rpi0W-SSH warning-DNS spoofing](https://user-images.githubusercontent.com/12764347/93722940-736e4b00-fb68-11ea-9c4c-23d14e6e20e9.png)
+
 Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 - Choose 64-bit if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
 - Under Package Files > MSI: Choose the 64-bit files if your OS can support it, if you're not sure what you have, it's fine to use 32-bit then
