@@ -20,10 +20,10 @@
   - [TORRENT](https://downloads.raspberrypi.org/raspios_full_armhf_latest.torrent)
     - NOTE: if you can torrent, that's much faster, the ZIP file seems to be speed limited no matter how fast your internet connection is
 - [Balena Etcher](https://www.balena.io/etcher/)
-- Windows users: [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-  - Under Package Files > MSI: 
-      - Choose the 64-bit installer if your OS can support it, if you're not sure what you have, it's fine to use 32-bit
-- Mac users: SSH is built into the command line already 
+
+### NOTE:
+- If you have any of the Raspberry Pi 0 - 3 models, you'll need Wifi on the 2.4 GHz channel, these models ONLY use this band, and range can be an issue especially on the Raspberry Pi 0 models
+- Raspberry Pi 4 can now use either the 2.4 GHz or the 5 Ghz band
 
 ### Let's get started:
 
@@ -144,31 +144,41 @@ You're finally ready to setup the physical Raspberry Pi!
 
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
+
+Mac users:
+- Go to your applications and search for the Terminal program
+
+From here both users can do a quick test to see if their Raspberry Pi is properly connected to the network
 - Type in:
   ```
   ping raspberrypi.local 
   ```
-- Make note of the IP address this returns, which in my case starts with "192.xxx.xx.xxx", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
+- Make note of the IP address this returns, which in my case starts with "192.###.##.###", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
+- Alternatively, if your IP address returns letters and numbers such as "2001:#xx#:##x#:####:####:#x#x:####:####" with eight sections with four characters in each, separated by periods between the sections, you have an IPv6 address. This is expected to become more commonplace and will work fine.
+- If you have no response and it's been at least several minutes since the Raspberry Pi was booted up, try moving it closer to the router and try to ping again
+
+Mac users:
+- Cancel the ping by pressing control + C
   
 ![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
 
-- Open up the PuTTY program > type in the IP address (or try all of them if you have multiple) > open
-  - It will give you a warning, select "Yes"
-
 ![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
 
-Mac users:
-- Go to your applications and open up a Terminal program
-- Type in:
+Easy way:
+Use this if you've only got one Raspberry Pi on the whole network
+- From the Terminal > type in:
   ```
-  ping raspberrypi.local 
+  ssh pi@raspberrypi.local
   ```
-- Make note of the IP address this returns, which in my case starts with "192.xxx.xx.xxx", yours should be formatted similarly as four sections with up to three-digit numbers separated by three periods.
+
+More tech savvy way:
+Use this if you're managing multiple Raspberry Pi's on the same network, you'll need this to specify which one. Or if you're changing OS's often or connecting to many Pi's
 - From the Terminal > type in:
   ```
   ssh pi@192.xxx.xx.xxx
   ```
   - Replace the digits after the @ symbol with your Raspberry Pi's IP address
+  - If you have an IPv6 address you can select the IP address from the ping results, copy and paste it here (right clicking will aid with that)
   - See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info for Mac users
 
 ##### <ins>STEP 6 - Logging into the Pi</ins>
