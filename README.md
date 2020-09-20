@@ -142,6 +142,8 @@ You're finally ready to setup the physical Raspberry Pi!
 
 ##### </ins>STEP 5 - SSH</ins>
 
+### Ping test
+
 Windows users:
 - Go to the Start menu > type in "cmd" > run the Command Prompt program
 
@@ -159,10 +161,8 @@ From here both users can do a quick test to see if their Raspberry Pi is properl
 
 Mac users:
 - Cancel the ping by pressing control + C
-  
-![Rpi0W-ping](https://user-images.githubusercontent.com/12764347/90437341-319d4100-e0a0-11ea-8c13-215eb90b7928.png)
 
-![Rpi0W-SSH](https://user-images.githubusercontent.com/12764347/90437262-13374580-e0a0-11ea-90e2-eb2173240081.png)
+### Now we can actually try to SSH
 
 Easy way:
 Use this if you've only got one Raspberry Pi on the whole network
@@ -180,6 +180,12 @@ Use this if you're managing multiple Raspberry Pi's on the same network, you'll 
   - Replace the digits after the @ symbol with your Raspberry Pi's IP address
   - If you have an IPv6 address you can select the IP address from the ping results, copy and paste it here (right clicking will aid with that)
   - See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info for Mac users
+
+For a more advanced method, good especially if you're handling multiple Raspberry Pi's or want a one click solution, see my [PuTTY section](https://github.com/eugf/raspberry_pi_setup_guide/blob/master/PuTTY.md) 
+
+![Rpi0W-SSH warning](https://user-images.githubusercontent.com/12764347/93723077-71f15280-fb69-11ea-840c-1dbe6040e94b.png)
+
+You may have to type in "yes" and hit enter to proceed
 
 ##### <ins>STEP 6 - Logging into the Pi</ins>
 
