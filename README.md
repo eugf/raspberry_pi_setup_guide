@@ -65,11 +65,16 @@
  
   ![Rpi0W-Etcher-flash6](https://user-images.githubusercontent.com/12764347/90350328-cce3d700-e00a-11ea-925e-4e1cb7e2cde9.png)
 
-- Windows users BEWARE! Ignore the Windows warning about a formatting drive error. That will not fix it (instead it will likely wipe your Raspberry Pi OS). However, if Balena Etcher gives you an error, you should be concerned. 
+- Windows users: Ignore the Windows warning about a formatting drive error. That will not fix it (instead it will likely wipe your Raspberry Pi OS). However, if Balena Etcher gives you an error, you should be concerned. 
+
+TROUBLESHOOTING FLASHING ERRORS:
+If you do have some kind of flash failed error or incomplete
 - Go to the Start menu > search for "disk management" > look for your micro SD card partitions (NOT your main computer drive) > right click each one and delete the volumes of your SD card
   - You should be left with a single partition that is the full size of the micro SD card and no other partitions
 - Then, use the [official SD card formmater](https://www.sdcard.org/downloads/formatter/) program to wipe your SD card
 - Start the procedure over from the Balena Etcher flashing steps
+- Alternatively, you can attempt to use the [official Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) which is based off the Pi Bakery tool.
+(TO DO: take pictures of this)
 
 ##### <ins>STEP 3 - Prepare the boot partition</ins>
 
