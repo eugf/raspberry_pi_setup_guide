@@ -53,7 +53,8 @@
   ![Rpi0W-Etcher-flash4](https://user-images.githubusercontent.com/12764347/90342511-d6ebe280-dfd6-11ea-940b-17b5919b863f.png)
 
   - Check your microSD card
-    - Size should be anywhere from 8 - 64 GB
+    - Size should be anywhere from 8 - 32 GB
+      - Raspberry Pi OS needs around 8 GB to install 
       - Sizes > 32 GB will need to be specially reformatted, see [here](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md)
     - Location should NOT be the main C:\ drive (this is hidden so you don't wipe your entire computer)
 
