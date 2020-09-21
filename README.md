@@ -187,7 +187,7 @@ Use this if you're managing multiple Raspberry Pi's on the same network, you'll 
   - If you have an IPv6 address you can select the IP address from the ping results, copy and paste it here (right clicking will aid with that)
   - See [here](https://www.servermania.com/kb/articles/ssh-mac/) for more info for Mac users
 
-For a more advanced method, good especially if you're handling multiple Raspberry Pi's or want a one click solution, see my [PuTTY section](https://github.com/eugf/raspberry_pi_setup_guide/blob/master/PuTTY.md) 
+For a more advanced method, good especially if you're handling multiple Raspberry Pi's or want a one click solution or are getting errors, see my [PuTTY section](https://github.com/eugf/raspberry_pi_setup_guide/blob/master/PuTTY.md) 
 
 ![Rpi0W-SSH warning](https://user-images.githubusercontent.com/12764347/93723077-71f15280-fb69-11ea-840c-1dbe6040e94b.png)
 
