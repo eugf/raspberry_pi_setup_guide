@@ -22,4 +22,11 @@ To upgrade the script to the latest version, run this command:
 pip3 install --upgrade git+https://github.com/genspace/openplant-incubator.git
 ```
 
+You're going to need the URL and password from Genspace's OpenPlant group to access the Metabase 
+```
+*** C L A S S I F I E D ***
+```
 
+Please request access for for those resources
+
+  
