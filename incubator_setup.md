@@ -29,4 +29,7 @@ You're going to need the URL and password from Genspace's OpenPlant group to acc
 
 Please request access for for those resources
 
-  
+TODO:
+- Need to get it on cron/systemd/termux to run as a background process
+- Need to get extra motors
+- 
