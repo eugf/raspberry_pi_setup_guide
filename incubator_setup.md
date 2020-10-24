@@ -13,8 +13,11 @@ incubate-me
 ```
 
 You will need to get a password from the Genspace NYC's OpenPlant group to access the AWS server
+```
+*** C L A S S I F I E D ***
+```
 
-If you need to upgrade the script, run this command:
+To upgrade the script to the latest version, run this command:
 ```
 pip3 install --upgrade git+https://github.com/genspace/openplant-incubator.git
 ```
