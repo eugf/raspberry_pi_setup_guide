@@ -4,5 +4,5 @@ This will then install the software needed to operate aforementioned components.
 SSH onto your Rpi0 and run this command:
 
 ```
-pip3 install git+https://github.com/genspace/openplant-incubator
+pip3 install git+https://github.com/genspace/openplant-incubator -U
 ```
