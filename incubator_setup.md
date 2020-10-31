@@ -9,7 +9,7 @@ pip3 install git+https://github.com/genspace/openplant-incubator -U
 
 Then run 
 ```
-sudo incubate-me
+incubate-me
 ```
 
 You will need to get a password from the Genspace NYC's OpenPlant group to access the AWS server
