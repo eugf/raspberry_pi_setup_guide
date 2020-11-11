@@ -44,7 +44,9 @@ Please request access for for those resources
 
 Tmux Setup:
 - Install tmux with 
-  '''sudo apt install tmux```
+  '''
+  sudo apt install tmux
+  ```
 - Type ```tmux``` and then hit Enter
 - This will start a Tmux session to detach the session and let it continue running even if you are no longer on SSH
 
