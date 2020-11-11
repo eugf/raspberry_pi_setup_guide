@@ -44,7 +44,7 @@ Please request access for for those resources
 
 Tmux Setup:
 - Install tmux with 
-  '''
+  ```
   sudo apt install tmux
   ```
 - Type ```tmux``` and then hit Enter
