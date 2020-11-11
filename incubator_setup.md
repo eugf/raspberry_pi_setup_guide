@@ -51,10 +51,15 @@ Tmux Setup:
 - This will start a Tmux session to detach the session and let it continue running even if you are no longer on SSH
 
 Tmux Useful Commands:
+
 Control + B, then press C = create new window (virtual session with 0, 1, 2, etc)
+
 Control + B, then press # = go to that window
+
 Control + B, then press D = detach and run in background
+
 tmux attach = bring to foreground
+
 exit = closes one of the windows, whichever one you're active in
 
 If you try to enter tmux again through the plain tmux command it will wipe existing session and start a new one
