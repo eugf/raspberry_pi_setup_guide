@@ -50,7 +50,7 @@ Tmux Setup:
 - Type ```tmux``` and then hit Enter
 - This will start a Tmux session to detach the session and let it continue running even if you are no longer on SSH
 
-Tmux Useful Commands:
+Tmux Useful Shortcuts & Commands:
 
 Control + B, then press C = create new window (virtual session with 0, 1, 2, etc)
 
@@ -58,9 +58,9 @@ Control + B, then press # = go to that window
 
 Control + B, then press D = detach and run in background
 
-tmux attach = bring to foreground
+```tmux attach``` = bring to foreground
 
-exit = closes one of the windows, whichever one you're active in
+```exit``` = closes one of the windows, whichever one you're active in
 
 If you try to enter tmux again through the plain tmux command it will wipe existing session and start a new one
 Once you've detached the tmux you can run it in the background and allow your incubate-me command to run in the background
